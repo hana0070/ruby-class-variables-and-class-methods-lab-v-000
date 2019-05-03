@@ -24,7 +24,7 @@ class Song
 
   def self.artist_count
     artist_count = {}
-    @@artists each do |key, value|
+    @@artists each do |artist|
       if key ==
         value += 1
       else
