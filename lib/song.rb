@@ -46,6 +46,7 @@ class Song
         genre_count = 1
       end
       genre_count
+    end
   end
 
 
