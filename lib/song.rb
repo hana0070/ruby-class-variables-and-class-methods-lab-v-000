@@ -22,6 +22,10 @@ class Song
     @@artists.uniq
   end
 
+  def self.artist_count
+
+  end
+
   def self.genres
     @@genres.uniq
   end
@@ -30,10 +34,8 @@ class Song
     @@genres each do |key, value|
       if key ==
         value += 1
-      else 
+      else
   end
 
-  def self.artist_count
 
-  end
 end
